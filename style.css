@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(82,245,197);
+  font-family: "FONTE CORPO font-family: "Mochiy Pop P One", sans-serif;", cursive;
+  color: black;
+  font-size:24px;
+}
+
+input[type="checkbox"]{
+  transform:scale(2);
+  margin-right:30px;
+}
+
+input[type="text"]{
+  font-size: 30px;
+  width: 230px;
+  border-radius: 200px;
+  border: solid 4px rgb(0,0,0);
+}
+
+.hidden{
+  display: none;
+}
+
+.botao{
+  background-color: white;
+  font-family: "Mochiy Pop P One", sans-serif;
+  color: black;
+  border: white;
+  border-radius: 200px;
+  font-size: 25px;
+}
+
+.botao:hover{
+  background-color: rgb(160,177,177);
+  border: solid 2px black;
+}
